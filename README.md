@@ -11,7 +11,7 @@ This repo uses [dlib's](http://dlib.net/) state-of-the-art face recognition achi
 $ python detect_img.py --image <path-to-img>
 ```
 
-Or to recreate the image below, run: 
+Or to recreate the image below, run the command below and check the resulting `Output.jpg`.
 ```bash
 $ python detect_img.py --image ./trump.jpg 
 ```
