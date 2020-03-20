@@ -35,7 +35,7 @@ def capture_face(args):
             cv2.circle(img=image, center=(x, y), radius=1, color=(0, 255, 0), thickness=-1)
 
     #  Show the image
-    img_suffix = args.image.split('.')[1]
+    img_suffix = args.image.split('.')[-1]
     cv2.imwrite(f"output.{img_suffix}", image)
 
 if __name__ == "__main__": 

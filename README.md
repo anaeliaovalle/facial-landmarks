@@ -8,7 +8,12 @@ This repo uses [dlib's](http://dlib.net/) state-of-the-art face recognition achi
 ## Face Detection Using an Image
 
 ```bash
-$ detect_img.py --image <path-to-img>
+$ python detect_img.py --image <path-to-img>
+```
+
+Or to recreate the image below, run: 
+```bash
+$ python detect_img.py --image ./trump.jpg 
 ```
 
 Original Image             |  Output Image with Facial boundary & Landmarks
@@ -21,7 +26,7 @@ Original Image             |  Output Image with Facial boundary & Landmarks
 Use your own web cam to pick up on faces. Press `q` key to quit 
 
 ```bash
-$ detect_video.py
+$ python detect_video.py
 ```
 
 ## Models
