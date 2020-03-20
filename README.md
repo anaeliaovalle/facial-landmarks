@@ -8,7 +8,7 @@ This repo uses [dlib's](http://dlib.net/) state-of-the-art face recognition achi
 ## Face Detection Using an Image
 
 ```bash
-$ detect_img.py --img <path-to-img>
+$ detect_img.py --image <path-to-img>
 ```
 
 Original Image             |  Output Image with Facial boundary & Landmarks
